@@ -30,11 +30,28 @@
                     </view>
                     <connections>
                         <outlet property="mapView" destination="fth-Kc-73P" id="bW9-0j-WVk"/>
+                        <segue destination="qmP-rB-Ig6" kind="show" identifier="ShowLocationDetailsSeque" id="Urw-hC-eAu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+            <point key="canvasLocation" x="274" y="90"/>
+        </scene>
+        <!--Location Details View Controller-->
+        <scene sceneID="wA3-tH-zjC">
+            <objects>
+                <viewController id="qmP-rB-Ig6" customClass="LocationDetailsViewController" customModule="_Za_Hunter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XKD-wd-ePi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="DQx-fA-t19"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QGx-aK-1qQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OdA-bI-N2Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1141" y="91"/>
         </scene>
     </scenes>
 </document>
