@@ -70,17 +70,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6H3-mc-Tjl">
+                                <rect key="frame" x="172" y="724" width="70" height="30"/>
+                                <state key="normal" title="Directions"/>
+                                <connections>
+                                    <action selector="onDirectionsButtonTapped:" destination="qmP-rB-Ig6" eventType="touchUpInside" id="87x-Pe-aRu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Jsd-cH-lnM" firstAttribute="top" secondItem="gd6-d5-X2o" secondAttribute="bottom" constant="78" id="34u-h4-Gy0"/>
                             <constraint firstItem="Jsd-cH-lnM" firstAttribute="trailing" secondItem="PTG-k8-7En" secondAttribute="trailing" id="D2H-ZU-tZL"/>
                             <constraint firstItem="DQx-fA-t19" firstAttribute="bottom" secondItem="PTG-k8-7En" secondAttribute="bottom" constant="261" id="IWQ-hF-yrC"/>
+                            <constraint firstItem="6H3-mc-Tjl" firstAttribute="centerX" secondItem="PTG-k8-7En" secondAttribute="centerX" id="JYj-eM-cyh"/>
                             <constraint firstItem="gd6-d5-X2o" firstAttribute="trailing" secondItem="Jsd-cH-lnM" secondAttribute="trailing" id="VZX-BZ-MNe"/>
                             <constraint firstItem="gd6-d5-X2o" firstAttribute="leading" secondItem="DQx-fA-t19" secondAttribute="leading" constant="107" id="av2-z4-gFI"/>
                             <constraint firstItem="gd6-d5-X2o" firstAttribute="leading" secondItem="Jsd-cH-lnM" secondAttribute="leading" id="dNJ-Ax-u6b"/>
                             <constraint firstItem="Jsd-cH-lnM" firstAttribute="leading" secondItem="PTG-k8-7En" secondAttribute="leading" id="hXa-Jg-XFN"/>
                             <constraint firstItem="gd6-d5-X2o" firstAttribute="centerX" secondItem="XKD-wd-ePi" secondAttribute="centerX" id="keN-Ge-bAt"/>
+                            <constraint firstItem="DQx-fA-t19" firstAttribute="bottom" secondItem="6H3-mc-Tjl" secondAttribute="bottom" constant="108" id="pyy-OI-SV4"/>
                             <constraint firstItem="gd6-d5-X2o" firstAttribute="top" secondItem="DQx-fA-t19" secondAttribute="top" constant="115" id="tRU-dm-G2l"/>
                             <constraint firstItem="PTG-k8-7En" firstAttribute="top" secondItem="Jsd-cH-lnM" secondAttribute="bottom" constant="70" id="u8p-7n-tvd"/>
                         </constraints>
